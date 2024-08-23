@@ -1,6 +1,9 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Jest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template is a result of `npm create vite@latest my-app -- --template react-ts` with a basic `jest` setup. It provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+[Live DEMO](https://codesandbox.io/p/github/ivanzusko/vite-template-react-ts-jest/main)
+
 
 Currently, two official plugins are available:
 
@@ -48,3 +51,5 @@ export default tseslint.config({
   },
 })
 ```
+
+Take a look at [awesome-vite](https://github.com/vitejs/awesome-vite) for other awesome vite templates.
